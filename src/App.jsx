@@ -63,7 +63,7 @@ function App() {
     }
 
     const subject = {
-      id: Date.now(),
+      id: crypto.randomUUID(),
       name: newSubject.name.trim(),
       totalClasses,
       attendedClasses,
