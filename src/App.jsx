@@ -20,6 +20,8 @@ function App() {
   useEffect(() => {
     if (subjects.length > 0) {
       localStorage.setItem('attendanceData', JSON.stringify(subjects))
+    } else {
+      localStorage.removeItem('attendanceData')
     }
   }, [subjects])
 
@@ -105,13 +107,6 @@ function App() {
   const handleDeleteSubject = (id) => {
     if (window.confirm('Are you sure you want to delete this subject?')) {
       setSubjects(prev => prev.filter(subject => subject.id !== id))
-      // Update localStorage after deletion
-      const updatedSubjects = subjects.filter(subject => subject.id !== id)
-      if (updatedSubjects.length === 0) {
-        localStorage.removeItem('attendanceData')
-      } else {
-        localStorage.setItem('attendanceData', JSON.stringify(updatedSubjects))
-      }
     }
   }
 

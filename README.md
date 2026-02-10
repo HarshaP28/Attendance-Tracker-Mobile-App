@@ -24,7 +24,7 @@ A simple and intuitive mobile-first web application designed to help students re
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v20.19.0 or v22.12.0 or higher)
 - npm (v6 or higher)
 
 ### Installation
