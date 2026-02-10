@@ -21,6 +21,10 @@
     "url": "https://github.com/HarshaP28/Attendance-Tracker-Mobile-App/issues"
   },
   "homepage": "https://github.com/HarshaP28/Attendance-Tracker-Mobile-App#readme",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
