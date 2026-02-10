@@ -1,0 +1,36 @@
+{
+  "name": "attendance-tracker-mobile-app",
+  "version": "1.0.0",
+  "description": "A simple mobile app to track student attendance for different subjects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshaP28/Attendance-Tracker-Mobile-App.git"
+  },
+  "keywords": ["attendance", "tracker", "mobile-app", "student", "react"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/HarshaP28/Attendance-Tracker-Mobile-App/issues"
+  },
+  "homepage": "https://github.com/HarshaP28/Attendance-Tracker-Mobile-App#readme",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.3",
+    "vite": "^7.3.1"
+  }
+}
