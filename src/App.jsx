@@ -271,9 +271,10 @@ function SubjectCard({ subject, onUpdate, onDelete, getPercentageClass }) {
       ) : (
         <div className="update-form">
           <div className="form-group">
-            <label>Total Classes</label>
+            <label htmlFor={`total-${subject.id}`}>Total Classes</label>
             <input
               type="number"
+              id={`total-${subject.id}`}
               value={editValues.total}
               onChange={(e) =>
                 setEditValues(prev => ({ ...prev, total: e.target.value }))
@@ -282,9 +283,10 @@ function SubjectCard({ subject, onUpdate, onDelete, getPercentageClass }) {
             />
           </div>
           <div className="form-group">
-            <label>Attended</label>
+            <label htmlFor={`attended-${subject.id}`}>Attended</label>
             <input
               type="number"
+              id={`attended-${subject.id}`}
               value={editValues.attended}
               onChange={(e) =>
                 setEditValues(prev => ({ ...prev, attended: e.target.value }))
