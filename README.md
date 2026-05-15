@@ -82,7 +82,7 @@
 
 
 - **Project Structure**
-- 
+  
     Attendance_Tracker_App
     │
     ├── attendance-node-backend     → Backend server
